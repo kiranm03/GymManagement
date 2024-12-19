@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Contracts\\GymManagement.Contracts.csproj": {}
+    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Contracts\\GymManagement.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Contracts\\GymManagement.Contracts.csproj": {
+    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Contracts\\GymManagement.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
         "projectName": "GymManagement.Contracts",
-        "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
+        "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Contracts\\GymManagement.Contracts.csproj",
         "packagesPath": "C:\\Users\\Manda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Manda\\AppData\\Roaming\\NuGet\\NuGet.Config",

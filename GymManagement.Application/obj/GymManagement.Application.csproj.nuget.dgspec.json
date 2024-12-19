@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Application\\GymManagement.Application.csproj": {}
+    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Application\\GymManagement.Application.csproj": {
+    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Application\\GymManagement.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj",
         "projectName": "GymManagement.Application",
-        "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Application\\GymManagement.Application.csproj",
+        "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Application\\GymManagement.Application.csproj",
         "packagesPath": "C:\\Users\\Manda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Application\\obj\\",
+        "outputPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Manda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Domain\\GymManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Domain\\GymManagement.Domain.csproj"
+              "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Domain\\GymManagement.Domain.csproj": {
+    "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj",
         "projectName": "GymManagement.Domain",
-        "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\Manda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Manda\\AppData\\Roaming\\NuGet\\NuGet.Config",

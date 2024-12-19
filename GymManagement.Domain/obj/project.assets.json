@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj",
       "projectName": "GymManagement.Domain",
-      "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Domain\\GymManagement.Domain.csproj",
+      "projectPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Domain\\GymManagement.Domain.csproj",
       "packagesPath": "C:\\Users\\Manda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Manda\\OneDrive\\Kiran\\Learn\\clean-architecture\\GymManagement\\GymManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Manda\\AppData\\Roaming\\NuGet\\NuGet.Config",
