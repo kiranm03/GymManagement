@@ -25,3 +25,5 @@ packages/
 
 # Ignore logs
 **/logs/
+
+.idea/
