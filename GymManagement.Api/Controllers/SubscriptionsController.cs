@@ -20,11 +20,12 @@ public class SubscriptionsController : ControllerBase
     public async Task<IActionResult> CreateSubscription(CreateSubscriptionRequest request)
     {
         var createSubscriptionCommand = new CreateSubscriptionCommand(request.SubscriptionType.ToString(), request.AdminId);
-        var subscriptionId = await _sender.Send(createSubscriptionCommand);
+        var createSubscriptionResult = await _sender.Send(createSubscriptionCommand);
 
-        var response = new SubscriptionResponse(subscriptionId, request.SubscriptionType);
-        
-        return Created($"/subscriptions/{subscriptionId}", response);
+        return createSubscriptionResult.MatchFirst(
+            subscriptionId => 
+                Created($"/subscriptions/{subscriptionId}", new SubscriptionResponse(subscriptionId, request.SubscriptionType)),
+            _ => Problem());
     }
     
     [HttpGet]
