@@ -23,8 +23,8 @@ public class SubscriptionsController : ControllerBase
         var createSubscriptionResult = await _sender.Send(createSubscriptionCommand);
 
         return createSubscriptionResult.MatchFirst(
-            subscriptionId => 
-                Created($"/subscriptions/{subscriptionId}", new SubscriptionResponse(subscriptionId, request.SubscriptionType)),
+            subscription =>
+                Created($"/subscriptions/{subscription.Id}", new SubscriptionResponse(subscription.Id, request.SubscriptionType)),
             _ => Problem());
     }
     
