@@ -5,8 +5,15 @@ namespace GymManagement.Infrastructure.Subscriptions.Persistence;
 
 public class SubscriptionRepository : ISubscriptionRepository
 {
-    public async Task AddSubscriptionAsync(Subscription subscription)
+    private static readonly List<Subscription> Subscriptions = new();
+    public Task AddSubscriptionAsync(Subscription subscription)
     {
-        await Task.CompletedTask;
+        Subscriptions.Add(subscription);
+        return Task.CompletedTask;
+    }
+
+    public Task<Subscription?> GetSubscriptionByIdAsync(Guid requestSubscriptionId, CancellationToken cancellationToken)
+    {
+        return Task.FromResult(Subscriptions.FirstOrDefault(s => s.Id == requestSubscriptionId));
     }
 }
