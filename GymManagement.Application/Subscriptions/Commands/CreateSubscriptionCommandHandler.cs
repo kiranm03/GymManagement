@@ -19,7 +19,7 @@ public class CreateSubscriptionCommandHandler : IRequestHandler<CreateSubscripti
     public async Task<ErrorOr<Subscription>> Handle(CreateSubscriptionCommand request, CancellationToken cancellationToken)
     {
         // Create subscription
-        var subscription = new Subscription { Id = Guid.NewGuid() };
+        var subscription = new Subscription { Id = Guid.NewGuid() , SubscriptionType = Enum.Parse<SubscriptionType>(request.SubscriptionType) };
         // Add it to database
         await _subscriptionRepository.AddSubscriptionAsync(subscription);
         await _unitOfWork.CommitChangesAsync(cancellationToken);
