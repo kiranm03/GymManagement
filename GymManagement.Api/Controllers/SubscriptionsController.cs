@@ -20,7 +20,14 @@ public class SubscriptionsController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateSubscription(CreateSubscriptionRequest request)
     {
-        var createSubscriptionCommand = new CreateSubscriptionCommand(request.SubscriptionType.ToString(), request.AdminId);
+        if(!Enum.TryParse<Domain.Subscriptions.SubscriptionType>(request.SubscriptionType.ToString(), out var subscriptionType)
+           || subscriptionType == default)
+        {
+            return Problem(
+                statusCode: StatusCodes.Status400BadRequest, 
+                detail: "Invalid subscription type");
+        }
+        var createSubscriptionCommand = new CreateSubscriptionCommand(subscriptionType, request.AdminId);
         var createSubscriptionResult = await _sender.Send(createSubscriptionCommand);
 
         return createSubscriptionResult.MatchFirst(
