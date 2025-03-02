@@ -9,8 +9,8 @@ POST {{host}}/subscriptions
 Content-Type: application/json
 
 {
-    "subscriptionType": "Free",
+    "subscriptionType": "Premium",
     "adminId": {{AdminId}}
 }
 ###
-GET {{host}}/subscriptions
+GET {{host}}/subscriptions/383137b0-1d9b-418c-b23c-0f0d8ab81463
