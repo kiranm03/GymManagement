@@ -20,8 +20,7 @@ public class SubscriptionsController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateSubscription(CreateSubscriptionRequest request)
     {
-        if(!Enum.TryParse<Domain.Subscriptions.SubscriptionType>(request.SubscriptionType.ToString(), out var subscriptionType)
-           || subscriptionType == default)
+        if(!Enum.TryParse<Domain.Subscriptions.SubscriptionType>(request.SubscriptionType.ToString(), out var subscriptionType))
         {
             return Problem(
                 statusCode: StatusCodes.Status400BadRequest, 
