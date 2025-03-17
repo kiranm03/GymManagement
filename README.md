@@ -128,5 +128,5 @@ Please ensure your code adheres to Clean Architecture principles and follows bes
 - [CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture) - An awesome clean architecture solution template by Jason Taylor
 ---
 
-Made with ❤️ by [kiranm03](https://github.com/kiranm03)
+Made with ❤️ by [kiran](https://github.com/kiranm03)
 
